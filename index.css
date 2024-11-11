@@ -1,0 +1,23 @@
+@import url("./vendor/reset.css");
+@import url("./vendor/fonts.css");
+
+.page {
+   /* page settings */
+   margin: 0 auto;
+   padding: 96px 72px 120px;
+   width: 1024px;
+   height: 1444px;
+
+   /* font settings */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   text-size-adjust: 100%;
+   text-rendering: optimizeLegibility;
+   font-family: Lato, Arial, Helvetica, sans-serif;
+
+   /* tempory borders */
+   border: 1px black dashed;
+}
