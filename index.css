@@ -36,13 +36,13 @@
    text-rendering: optimizeLegibility;
    font-family: Lato, Arial, Helvetica, sans-serif;
 
-   /* tempory borders */
-   border: 1px black dashed;
+   /* a touch of shadow */
+   /* box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 20%); */
 }
 
 .header {
-   padding: 20px 0;
-   margin-bottom: calc(var(--section-margin) - 20px);
+   padding: 20px 0 16px;
+   margin-bottom: calc(var(--section-margin) - 16px);
    position: sticky;
    position: -webkit-sticky;
    top: 0;
